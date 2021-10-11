@@ -4,45 +4,46 @@ body
 {
     margin: 0;
     padding: 1%;
+    background-image: linear-gradient(#FFC3D5, #FF006F);
+    background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
 }
 
-header
+h1
 {
-    text-align: center;
-    background-color: #b10000;
-    color: whitesmoke;
-    padding: 1%;
+    color: rgb(134, 1, 52);
 }
 
-nav
+h4
 {
-    background-color: bisque;
-    text-align: center;
-    padding: 1%;
-}
-
-nav a
-{
-    text-align: center;
-    padding: 5%;
-    color: black;
-}
-
-section h2
-{
-    color: #011094;
-}
-
-article
-{
-    text-align: justify;
-    padding: 1%;
+    color: antiquewhite;
 }
 
 footer
 {
-    background-color: #b10000;
-    color: whitesmoke;
-    padding: 2%;
+    text-align: center;
+    color: antiquewhite;
+}
+
+footer a:link,a:visited,a:hover,a:active
+{
+    color: rgba(134, 1, 52);
+}
+
+section
+{
+    padding: 10%;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 25;
+}
+
+em
+{
+    color: rgba(134, 1, 52);
+}
+
+hr
+{
+    color:rgba(134, 1, 52);
 }
